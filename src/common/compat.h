@@ -22,7 +22,7 @@
 #define __darwin__	1
 #endif
 
-#if (defined(__GLIBC__) || defined(__FreeBSD__) || defined(__darwin__) || defined(__NetBSD__))
+#if (defined(__linux__) || defined(__FreeBSD__) || defined(__darwin__) || defined(__NetBSD__))
 
 #define RTLD_NEXT	((void *) -1)
 
